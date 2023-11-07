@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(88, 73, 73); */
+}
+
+#bulb{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    
+}
+
+ #bulb2{
+margin-top: 100px;
+height: 400px;
+width: 400px;
+
+} 
+
+
+button{
+    padding: 10px 30px;
+    font-size: 20px;
+   margin-left: 45%;
+   margin-top: 20px;
+   border-radius: 8px;
+   background-color: rgb(56, 86, 110);
+   border: none;
+   cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(20, 202, 193)
+}
